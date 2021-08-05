@@ -9,7 +9,7 @@ public class CartItem {
     private int quantity;
     private CartItem() {}
 
-    CartItem(Item item) {
+    public CartItem(Item item) {
         this.item = item;
         this.quantity = 1;
     }
