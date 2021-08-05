@@ -5,3 +5,4 @@ import springboot.juuhyunn.item.entity.Item;
 
 public interface ItemRepository extends ReactiveCrudRepository<Item, String> {
 }
+//
